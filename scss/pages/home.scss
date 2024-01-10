@@ -141,7 +141,9 @@
         }
     }
 }
-
+.app_img {
+    width: 100% !important;
+}
 .app__box {
     width: 100%;
     gap: 40px;
@@ -158,6 +160,10 @@
         border-radius: 4px;
         background: #fcd5ba;
         box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+        transition: .5s;
+         &:hover{
+        background: #E5FFDE;
+    }
         p {
             max-width: 258px;
         }
@@ -167,22 +173,17 @@
         h3 {
             max-width: 258px;
         }
-
     }
 }
+.title {
+    color: #414141;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+}
 
-        .second_box {
-            background-color: #E5FFDE;
-            gap: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-left: 10px;
-            width: 50%;
-            max-width: 584px !important;
-            border-radius: 4px;
-            box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
-        }
 
 .staty {
     &__card_box {
@@ -274,4 +275,29 @@
 .card1 {
     max-width: 272px;
     background: #fff;
+}
+text {
+    color: #414141;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.second_box {
+    background-color: #e5ffde;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 50%;
+    max-width: 584px !important;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+    transition: .5s;
+    &:hover{
+        background: #E5FFDE;
+    }
 }

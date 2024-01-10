@@ -967,6 +967,7 @@ body.dark .header .search_input {
 }
 
 .footer {
+  position: fixed;
   padding: 24px 0;
   margin-top: 140px;
   background: url("../../assets/images/Home/home-card-images/footer-bg.png") center center no-repeat;

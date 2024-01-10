@@ -974,6 +974,7 @@ body.dark .header .search_input {
 }
 
 .footer {
+  position: fixed;
   padding: 24px 0;
   margin-top: 140px;
   background: url("../../assets/images/Home/home-card-images/footer-bg.png") center center no-repeat;
@@ -2117,6 +2118,10 @@ html {
   }
 }
 
+.app_img {
+  width: 100% !important;
+}
+
 .app__box {
   width: 100%;
   gap: 40px;
@@ -2142,6 +2147,11 @@ html {
   background: #fcd5ba;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
           box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.app__box .box:hover {
+  background: #E5FFDE;
 }
 .app__box .box p {
   max-width: 258px;
@@ -2153,24 +2163,13 @@ html {
   max-width: 258px;
 }
 
-.second_box {
-  background-color: #E5FFDE;
-  gap: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-left: 10px;
-  width: 50%;
-  max-width: 584px !important;
-  border-radius: 4px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
-          box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+.title {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
 }
 
 .staty__card_box {
@@ -2285,4 +2284,38 @@ html {
 .card1 {
   max-width: 272px;
   background: #fff;
+}
+
+text {
+  color: #414141;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.second_box {
+  background-color: #e5ffde;
+  gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 10px;
+  width: 50%;
+  max-width: 584px !important;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+          box-shadow: 0px 8px 16px 0px rgba(202, 147, 96, 0.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.second_box:hover {
+  background: #E5FFDE;
 }
