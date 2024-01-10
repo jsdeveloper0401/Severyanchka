@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Товар | Product</title>
+    <link rel="stylesheet" href="../css/product.min.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a id="logo" class="logo" href="../index.html"
+            ><img src="../assets/images/Home/logo-min.svg" alt="Logo"
+          /></a>
+          <a class="logo_tablet" href="../pages/home.html"
+            ><img src="../assets/images/Home/logo-tablet.svg" alt="logo"
+          /></a>
+          <div class="header__nav_search">
+            <div class="wrapperr">
+              <button class="catalog confetti-button">
+                <img
+                  id="menuIcon"
+                  src="../assets/images/Home/menu-min.svg"
+                  alt="menu"
+                /><a href="../pages/category.html" class="text_katalog"
+                  >Каталог</a>
+              </button>
+            </div>
+            <div class="search">
+              <input
+                id="searchInput"
+                class="search_input"
+                type="text"
+                placeholder="Найти товар"
+              />
+
+              <img
+                class="search_icon"
+                src="../assets/images/Home/search.svg"
+                alt="search icon"
+              />
+              <div class="search_result"></div>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="favourite.html"
+                ><img
+                  class="invert"
+                  src="../assets/images/Home/like-min.svg"
+                  alt="like"
+                />Избранное</a
+              >
+              <span id="count-favourite">0</span>
+            </li>
+            <li>
+              <a href="../pages/products.html"
+                ><img
+                  src="../assets/images/Home/product-min.svg"
+                  alt="product-min"
+                />продукты</a
+              >
+            </li>
+            <li>
+              <a class="counts_parent" href="cart.html"
+                ><img
+                  src="../assets/images/Home/shopping-cart.svg"
+                  alt="shop cart"
+                />Корзина</a
+              >
+              <span id="count" class="count">0</span>
+            </li>
+          </ul>
+          <a onclick="" href="#" id="user-button" class="user">
+            <img
+              width="40px"
+              height="40px"
+              id="profile-image"
+              style="border-radius: 50%"
+              src="../assets/images/Home/aleksiy.png"
+              alt="user"
+            />
+            <p id="username" class="user_info">Login</p>
+            <div class="user-info-container">
+              <div class="user-info" id="user-info">
+                <img
+                  src="../assets/images/Home/list.svg"
+                  class="dropdown-icon hidden"
+                />
+              </div>
+            </div>
+        </nav>
+      </div>
+    </header>   
+    <main>
+        <div class="container">
+            <h1 style="margin: 200px;">Product</h1>
+        </div>
+    </main>
+  </body>
+</html>

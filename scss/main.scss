@@ -1,0 +1,28 @@
+//BASE
+@import 
+    'base/reset',
+    'base/base',
+    'base/typography';
+
+@import 
+    'abstracts/mixins',
+    'abstracts/colors',
+    'abstracts/placeholders',
+    'abstracts/variables';
+
+@import 
+    'components/loaders',
+    'components/map';
+
+@import
+    'layout/header',
+    'layout/forms',
+    'layout/breadcrumb',
+    'layout/footer';
+
+@import
+    'themes/dark-mode';
+
+ html{
+    scroll-behavior: smooth;
+ }

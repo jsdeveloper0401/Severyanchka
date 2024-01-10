@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/home.min.css"/>
+    <title>Home | Северяночка</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <a id="logo" class="logo" href="./index.html"
+            ><img src="../assets/images/Home/logo-min.svg" alt="Logo"/></a>
+          <a class="logo_tablet" href="../pages/home.html"
+            ><img src="../assets/images/Home/logo-tablet.svg" alt="logo"/></a>
+          <div class="header__nav_search">
+            <div class="wrapperr">
+              <button class="catalog confetti-button">
+                <img
+                  id="menuIcon"
+                  src="../assets/images/Home/menu-min.svg"
+                  alt="menu"
+                /><a href="../pages/category.html" class="text_katalog"
+                  >Каталог</a
+                >
+              </button>
+            </div>
+            <div class="search">
+              <input
+                id="searchInput"
+                class="search_input"
+                type="text"
+                placeholder="Найти товар"
+              />
+
+              <img
+                class="search_icon"
+                src="../assets/images/Home/search.svg"
+                alt="search icon"
+              />
+              <div class="search_result"></div>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="favourite.html"
+                ><img
+                  class="invert"
+                  src="../assets/images/Home/like-min.svg"
+                  alt="like"
+                />Избранное</a
+              >
+              <span id="count-favourite">0</span>
+            </li>
+            <li>
+              <a href="../pages/products.html"
+                ><img
+                  src="../assets/images/Home/product-min.svg"
+                  alt="product-min"
+                />продукты</a
+              >
+            </li>
+            <li>
+              <a  class="counts_parent" href="cart.html"
+                ><img
+                  src="../assets/images/Home/shopping-cart.svg"
+                  alt="shop cart"
+                />Корзина</a
+              >
+              <span id="count" class="count">0</span>
+            </li>
+          </ul>
+          <a  href="#" id="user-button" class="user">
+            <img width="40px" height="40px" id="profile-image" style="border-radius: 50%;" src="../assets/images/Home/aleksiy.png" alt="user" />
+            <p id="username" class="user_info">SIGN IN</p>
+            <div class="user-info-container">
+          </a>
+        </nav>
+      </div>
+    </header>
+    <nav class="footer_navbar">
+      <div class="container">
+        <div class="footer_navbar_fixed">
+          <ul class="footer_nav_list">
+            <li>
+              <a class="red_hover" href="category.html"
+                ><img
+                  src="../assets/images/Home/menu-dark.svg"
+                  alt="menu"
+                />Каталог</a
+              >
+            </li>
+            <li>
+              <a class="red_hover" href="favourite.html"
+                ><img
+                  src="../assets/images/Home/like-min.svg"
+                  alt="like"
+                />Избранное</a
+              >
+              <span class="fav-counter">0</span>
+            </li>
+            <li>
+              <a class="red_hover" href="products.html"
+                ><img
+                  src="../assets/images/Home/product-min.svg"
+                  alt="product-min"
+                />продукты</a
+              >
+            </li>
+            <li>
+              <a class="counts_parent red_hover" href="cart.html"
+                ><img
+                  src="../assets/images/Home/shopping-cart.svg"
+                  alt="shop cart"
+                />Корзина</a
+              >
+              <span class="count countt">0</span>
+            </li>
+            <li>
+              <a id="mobile-button" class="mobile-only " href="#"
+                ><img src="../assets/images/Home/aleksiy.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   
+    <section class="deliver">
+      <div class="container">
+        <div class="deliver__container">
+          <img src="../assets/images/Home/banner-min.svg" alt="fruits"/>
+          <h1>Доставка бесплатно от 1000 ₽</h1>
+        </div>
+      </div>
+    </section>
+    <section class="discount">
+      <div class="container">
+        <div class="discount__title">
+          <h2>Акции</h2>
+          <a href="./pages/products.html"
+            >Все продукты
+            <span
+              ><img
+                src="../assets/images/Home/arrow-to-right.svg"
+                alt="right arrow" /></span></a>
+        </div>
+        <div class="discount__wrapper">
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/rulette.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button class="discount__wrapper__card__btn">В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/kefir.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/meat.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/meat.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section  class="discount">
+      <div class="container">
+        <div class="discount__title">
+          <h2>Новинки</h2>
+          <a href="./pages/product.html"
+            >Все продукты
+            <span
+              ><img
+                src="../assets/images/Home/arrow-to-right.svg"
+                alt="right arrow" /></span
+          ></a>
+        </div>
+            <div class="discount__wrapper">
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/sausage.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/meat.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/meat.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/kefir.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="discount">
+      <div class="container">
+        <div class="discount__title">
+          <h2>Покупали раньше</h2>
+          <a href="./pages/products.html"
+            >Все продукты
+            <span
+              ><img
+                src="../assets/images/Home/arrow-to-right.svg"
+                alt="right arrow" /></span
+          ></a>
+        </div>
+          <div class="discount__wrapper">
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/colbasa.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/meat.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/sausage.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+          <div class="discount__wrapper__card card1">
+            <img src="./assets/images/kefir.png" alt="rulet img">
+            <img src="./assets/images/price.png" alt="price">
+            <p>Г/Ц Блинчики с мясом вес, Россия</p>
+            <img src="./assets/images/rating.png" alt="rating">
+            <button>В корзину</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="app">
+      <div class="container">
+        <h2>Специальные предложения</h2>
+        <div id="app_container" class="app__box"> <div class="box">
+             <div class="box__info">
+               <h4>Оформите карту «Северяночка»</h4>
+               <p>И получайте бонусы при покупке в магазинах и на сайте.</p>
+             </div>
+             <div class="cover_img">
+               <img class="app_img" src="../assets/images/Home/home-card-images/app-card-1.png" alt="Северяночка">
+             </div>
+           </div>
+           <div class="box second_box">
+            <div class="box__info">
+              <h4>Покупайте акционные товары</h4>
+              <p>И получайте вдвое больше бонусов.</p>
+            </div>
+            <div class="cover_img">
+              <img class="app_img" src="../assets/images/Home/home-card-images/app-card-2.png" alt="Северяночка">
+            </div>
+          </div></div>
+      </div>
+    </section>
+    <!-- sratr map section -->
+    <section class="map">
+      <div class="container">
+        <h2>Наши магазины</h2>
+        <div class="ap-tab">
+          <ul
+            data-wow-duration="3s"
+            data-wow-delay="0.3s"
+            class="ap-tab-list ap__list__custom"
+          >
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">п.Щельяюр</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">д.Вертеп</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">с.Краснобор</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">д.Диюр</a>
+            </li>
+          </ul>
+        </div>
+        <div class="ap-tab-container">
+          <div class="ap-tab-content">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.25298617416!2d69.2793667!3d41.28259745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent!5e0!3m2!1sen!2s!4v1702135951541!5m2!1sen!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="ap-tab-content">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.25298617416!2d69.2793667!3d41.28259745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent!5e0!3m2!1sen!2s!4v1702135951541!5m2!1sen!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="ap-tab-content">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.25298617416!2d69.2793667!3d41.28259745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent!5e0!3m2!1sen!2s!4v1702135951541!5m2!1sen!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="ap-tab-content">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.25298617416!2d69.2793667!3d41.28259745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent!5e0!3m2!1sen!2s!4v1702135951541!5m2!1sen!2s"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="staty">
+      <div class="container">
+        <div class="discount__title">
+          <h2>Статьи</h2>
+          <a href="./pages/jobs.html">Все статьи
+            <span><img src="../assets/images/Home/arrow-to-right.svg" alt="right arrow"></span></a>
+        </div>
+        <div id="stati-root" class="stati__card_box"> <div class="card">
+             <img src="../assets/images/Home/home-card-images/stati-1.png" alt="">
+             <span class="date">05.03.2021</span>
+             <h4>
+               Режим использования масок и перчаток на территории магазинов
+             </h4>
+             <p>
+                Подробная информация о режимах использования масок и перчаток на
+      территории магазинов "ЛЕНТА". Информация обновляется каждый будний
+      день.
+             </p>
+             <button>Вce cтатьи </button>
+           </div>
+           <div class="card">
+            <img src="../assets/images/Home/home-card-images/stati-2.png" alt="">
+            <span class="date">02.05.2023</span>
+            <h4>
+              Весеннее настроение для каждой  и праздничных тёплых пожеланий
+            </h4>
+            <p>
+               8 Марта – это не просто Международный женский день, это ещё день тюльпанов, приятных сюрпризов и праздничных тёплых пожеланий.
+            </p>
+            <button>Вce cтатьи
+ 
+  </button>
+          </div> <div class="card">
+          <img src="../assets/images/Home/home-card-images/stati-3.png" alt="">
+          <span class="date">22.02.2020</span>
+          <h4>
+            ЗОЖ или ФАСТФУД. А вы на чьей стороне? Голосуем!
+          </h4>
+          <p>
+            Голосуйте за любимые категории, выбирайте категорию-победителя в мобильном приложении и получайте кешбэк 10% баллами в апреле!.
+          </p>
+          <button>Вce cтатьи
+
+  </button>
+        </div></div>
+      </div>
+        </section>
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__left">
+          <a href="home.html"
+            ><img
+              src="../assets/images/Home/home-card-images/logo-footer.svg"
+              alt="logo"
+          /></a>
+          <li><a href="./pages/about.html">О компании</a></li>
+          <li><a href="../pages/contact.html">Контакты</a></li>
+          <li><a href="../pages/jobs.html">Вакансии</a></li>
+          <li><a href="#">Статьи</a></li>
+          <li><a href="https://magazinseverianochka.com/%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%B4%D0%B0%D0%BD/">Политика обработки персональных данных</a></li>
+        </div>
+        <div class="footer__right">
+          <div class="socials">
+            <div class="half">
+              <img
+                src="../assets/images/Home/home-card-images/insta.svg"
+                alt="instagram"
+              />
+              <img
+                src="../assets/images/Home/home-card-images/Vector.svg"
+                alt="vektor"
+              />
+            </div>
+            <div class="rest_half">
+              <img
+                src="../assets/images/Home/home-card-images/facebook.svg"
+                alt="facebook"
+              />
+              <img
+                src="../assets/images/Home/home-card-images/odno.svg"
+                alt="odnoklasniky"
+              />
+            </div>
+          </div>
+          <div class="phone">
+            <span
+              ><img
+                src="../assets/images/Home/home-card-images/phone.png"
+                alt="phone"
+              />
+              8 800 777 33 33</span
+            >
+            <span
+              >Дизайн
+              <img
+                src="../assets/images/Home/home-card-images/logo-zasovskiy-small-black.svg"
+                alt="card img"
+            /></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
+  </body>
+</html>
